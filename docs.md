@@ -2,9 +2,9 @@
 
 ## API Endpoints
 
-- <b>POST /api/v1/initialize:</b> [initialize]("#initialize-payments") a new transaction
-- <b>GET /api/v1/verifyPayment:</b> [Verify]("#verify-payments") a transaction
-- <b>POST /api/v1/getPayment:</b> Get [transaction reciept]("#transaction-reciepts")
+- <b>POST /api/v1/initialize:</b> initialize a new transaction
+- <b>GET /api/v1/verifyPayment:</b> Verify  a transaction
+- <b>POST /api/v1/getPayment:</b> Get transaction reciept
 
 ### Initialize Payments
 
@@ -62,4 +62,4 @@ response will come in json
 ### Transaction Receipts
 This endpoint returns a transaction information object that could serve as a receipt
 
-Refer to the official [paystack documentation]("https://paystack.com/docs/api/transaction") to understand different transaction options you could modify clone and modify the project to suit your needs.
+Refer to the official [paystack documentation](https://paystack.com/docs/api/transaction) to understand different transaction options you could modify clone and modify the project to suit your needs.
