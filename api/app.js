@@ -1,4 +1,5 @@
 var express = require('express');
+var apiVersion = "/api/v1"
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
@@ -15,7 +16,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/pay', paymentRouter);
+app.use(`${apiVersion}/pay`, paymentRouter);
 
 app.listen(PORT, ()=>{
     console.log(`Server is now listening on port ${PORT}`);
