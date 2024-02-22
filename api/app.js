@@ -3,8 +3,8 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const PORT = process.env.PORT || 3000
-const db = require('./api/mod/db')
-var paymentRouter = require('./api/routes/paymentRoutes');
+const db = require('./mod/db')
+var paymentRouter = require('./routes/paymentRoutes');
 
 var app = express();
 db()

@@ -1,11 +1,11 @@
 {
-  "name": "simple-paystack-backend-api-integration",
+  "name": "Paystack Api Implementation",
   "version": "1.0.0",
   "description": "Implementation of Paystack Charge Api From the Backend",
   "main": "index.js",
   "scripts": {
-    "start": "node app",
-    "dev": "nodemon app"
+    "start": "node ./api/app",
+    "dev": "nodemon ./api/app"
   },
   "dependencies": {
     "axios": "^1.6.7",
