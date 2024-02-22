@@ -1,7 +1,7 @@
 {
   "name": "Paystack Api Implementation",
   "version": "1.0.0",
-  "description": "Implementation of Paystack Charge Api From the Backend",
+  "description": "Implementation of Paystack Transaction Api From the Backend",
   "main": "index.js",
   "scripts": {
     "start": "node ./api/app",
