@@ -35,12 +35,12 @@ npm start
 
 ### Usage
 - Use the provided endpoints to interract with the Paystack API
-- Refer to the [API documentation]("/docs.md") for detailed instructions
+- Refer to the [API documentation]("https://github.com/dhelafrank/Paystack-API-Integration/docs.md") for detailed instructions
 
 ### API Endpoints
 - <b>POST /api/v1/initialize:</b> Initiate a new transaction
-- <b>POST /api/v1/verifyPayment:</b> Verify a transaction
+- <b>GET /api/v1/verifyPayment:</b> Verify a transaction
 - <b>POST /api/v1/getPayment:</b> Get a transaction reciept
 
 ### License
-This project is licensed under the [MIT License]("/LICENSE.md")
+This project is licensed under the [MIT License]("https://github.com/dhelafrank/Paystack-API-Integration/LICENSE.md")
